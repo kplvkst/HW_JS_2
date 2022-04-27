@@ -65,12 +65,13 @@
 
 
 // function getWordStructure(str) {
+    
 //     let glasn = 0
 //     let soglasn = 0
 //     const bukva = ['a', 'e', 'i', 'o', 'u', 'y']
 //     const bbb = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z']
 
-//     for (let char of str) {
+//     for (let char of str.toLowerCase()) {
 //         if (bukva.includes(char)) {
 //             glasn+=1
 //         } else 
@@ -81,7 +82,7 @@
 //     console.log("Слово " + str + " состоит из " + glasn + " гласных и " + soglasn + " согласных букв.")
 // }
 
-// getWordStructure("kogda-to")
+// getWordStructure("KOGDA-to")
 
 
 
