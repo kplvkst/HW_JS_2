@@ -68,18 +68,20 @@
 //     let glasn = 0
 //     let soglasn = 0
 //     const bukva = ['a', 'e', 'i', 'o', 'u', 'y']
+//     const bbb = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z']
 
 //     for (let char of str) {
 //         if (bukva.includes(char)) {
 //             glasn+=1
-//         } else {
+//         } else 
+//             if (bbb.includes(char)) {
 //             soglasn+=1
 //         }
 //     }
 //     console.log("Слово " + str + " состоит из " + glasn + " гласных и " + soglasn + " согласных букв.")
-    
 // }
-// getWordStructure("Zdravstvuyte")
+
+// getWordStructure("kogda-to")
 
 
 
@@ -87,7 +89,9 @@
 // e.g. function isPalindrom(word)
 
 
-// function palindrome(str){
+// function palindrome(str_entry){
+//     let str = str_entry.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'')
+// 	// let ccount = 0
 //     let n = str.length
 //     for (let i = 0; i < n/2; i++) {  
 //         if (str[i] !== str[str.length - 1 - i]) {
@@ -101,6 +105,6 @@
 
 // palindrome("asdfghjsa")
 // palindrome('12321')
-// palindrome('abbaabba')
+// palindrome('AbbaAbba')
 // palindrome('fvodfgsdfxf')
 
